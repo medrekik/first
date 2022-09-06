@@ -16,10 +16,10 @@ function CtoF() {
 <body>
 
   <label for="°C">C:</label>
-  <input type="number" id="C"><br><br>
+  <input type="number" id="C" onchange="CtoF()"><br><br>
 
   <label for="°F">F:</label>
-  <input type="number" id="F"><br><br>
+  <input type="number" id="F" onchange="FtoC()"><br><br>
 
 <button type="button" onclick="CtoF()">°C to °F</button>
 <button type="button" onclick="FtoC()">°F to °C</button>
