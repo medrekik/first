@@ -1,1 +1,36 @@
-aaa
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+
+<input type="number" id="nb">
+
+<button onclick="myFunction()">+</button>
+<br>
+<p id="tab"></p>
+
+<button onclick="calculer()">Compute</button>
+<p id="somme"></p>
+<p id="trie"></p>
+
+<script>
+let T=[];
+function myFunction() {
+  T.push(document.getElementById("nb").value);
+  document.getElementById("tab").innerHTML = T ; 
+}
+function calculer()
+{
+
+}
+</script>
+
+</body>
+</html>
